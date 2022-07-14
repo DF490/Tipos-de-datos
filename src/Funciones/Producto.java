@@ -9,7 +9,8 @@ public class Producto {
 
     static int operacion(int precio){
         int iva = 19;
-        return (precio * iva /100);
+        int res = (precio * iva /100) + precio;
+        return res;
     }
 
 
